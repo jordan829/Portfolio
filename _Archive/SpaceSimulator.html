@@ -1,0 +1,66 @@
+<DOCTYPE !html>
+<html class="fade_in">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+   
+    <body>
+        
+        <div class="content">
+            <ul id="navigation" class="fade_in">
+                <li><a class="color_fade" href="http://jordanscottmiller.com/portfolio">Portfolio</a></li>
+                <li><a class="color_fade" href="http://jordanscottmiller.com/about">About</a></li>
+                <li><a class="color_fade" href="http://jordanscottmiller.com/home">Home</a></li>
+                <ul style="float:left;list-style-type:none;">
+                    <li><p>Jordan S. Miller</p></li>
+                </ul>
+            </ul>
+            
+            <div class="banner">
+                <h1 class="fade_in">Space Simulator</h1>
+                <div id="mainButtons" style="padding-top: 63px;">
+                    <ul>
+                        <li><a class="color_fade" style="width: 200px;" href="https://github.com/jordan829/SpaceSimulator" target="_blank">View on Github</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div align="center" style="width: 50%; margin-left: auto; margin-right:auto; padding-top:5%; background-color: #f2f2f2;">
+                <iframe width="640" height="360" src="https://www.youtube.com/embed/plowjXi-Q5A" frameborder="0" allowfullscreen></iframe>
+            </div>
+            
+            <div style="width: 50%; margin-left: auto; margin-right:auto; padding-top:5%; padding-bottom:2.5%; background-color: #f2f2f2;">
+                <div style="margin-left: 5%; margin-right:5%;">
+                    <p> 
+                        This application is a simplistic space flight simulator created using C++ and OpenGL. It was created in a group of 3 for our final project 
+                        in an intro to computer graphics course at UCSD as a way to showcase the engine that we had built up over the quarter. This engine includes 
+                        various math libraries, lighting, a scene graph, and a parser/renderer for .obj files. For this project, I was personally responsible for 
+                        implementing an l-system for procedurally generated plants and a particle effect system. The l-system is used to generate a tree at the 
+                        center of the scene. The user can continuously generate a new plant by pressing the &quot;T&quot; key. The particle effect system was used mainly 
+                        for creating the thruster effect on the spaceship. As the user increases the speed of the ship, the particles are set to travel at a higher 
+                        velocity, creating a larger cone for a more realistic effect. An additional &quot;Turbo Mode&quot; feature was added, in which particles fly from the 
+                        center of the screen outward around the ship, giving the illusion that you are traveling at light speed. Additionally, the particle system 
+                        was used to create a procedurally generated star system. Each star is a single particle with a randomly generated position and lifetime, which 
+                        gives the stars a &quot;twinkling&quot; effect. 
+                    </p>
+                </div>
+            </div>
+            
+            <div style="width: 50%; margin-left: auto; margin-right:auto; padding-top:2.5%; padding-bottom:2.5%; background-color: #f2f2f2;">
+                <div id="gallery">
+                    <ul>
+                        <li><img src="Images/Projects/SpaceSim/screenshot.jpg" /></li>
+                        <li><img src="Images/Projects/SpaceSim/turbo.jpg" /></li>
+                        <li><img src='Images/Projects/SpaceSim/stars.jpg' onmouseover="this.src='Images/Projects/SpaceSim/stars.gif';" onmouseout="this.src='Images/Projects/SpaceSim/stars.jpg';" /></li>
+                        <li><img src='Images/Projects/SpaceSim/tree.jpg' onmouseover="this.src='Images/Projects/SpaceSim/tree.gif';" onmouseout="this.src='Images/Projects/SpaceSim/tree.jpg';" /></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="mainButtons" style="margin-top: -40px; padding-bottom: 100px;">
+                    <ul>
+                        <li><a class="color_fade" href="http://jordanscottmiller.com/portfolio">Back</a></li>
+                    </ul>
+                </div>
+        </div>
+        
+    </body>
+</html>

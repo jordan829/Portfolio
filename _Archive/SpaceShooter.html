@@ -1,0 +1,46 @@
+<DOCTYPE !html>
+<html class="fade_in">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+   
+    <body>
+        
+        <div class="content">
+            <ul id="navigation" class="fade_in">
+                <li><a class="color_fade" href="http://jordanscottmiller.com/portfolio">Portfolio</a></li>
+                <li><a class="color_fade" href="http://jordanscottmiller.com/about">About</a></li>
+                <li><a class="color_fade" href="http://jordanscottmiller.com/home">Home</a></li>
+                <ul style="float:left;list-style-type:none;">
+                    <li><p>Jordan S. Miller</p></li>
+                </ul>
+            </ul>
+            
+            <div class="banner">
+                <h1 class="fade_in">Space Shooter</h1>
+                <div id="mainButtons" style="padding-top: 63px;">
+                    <ul>
+                        <li><a class="color_fade" style="width: 200px;" href="https://github.com/jordan829/Spaceship" target="_blank">View on Github</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div align="center" style="width: 50%; margin-left: auto; margin-right:auto; padding-top:5%; background-color: #f2f2f2;">
+                <iframe width="640" height="360" src="https://www.youtube.com/embed/PgIYzCLetAc" frameborder="0" allowfullscreen></iframe>
+            </div>
+            
+            <div style="width: 50%; margin-left: auto; margin-right:auto; padding-top:5%; padding-bottom:2.5%; background-color: #f2f2f2;">
+                <div style="margin-left: 5%; margin-right:5%;">
+                    <p> 
+                        This application is an orthographic 3D video game built using C++ and OpenGL. The objective of the game is simple: Shoot stuff for points. If an enemy ship passes, the player loses one life. Shooting red enemies rewards the player with one extra life, with a maximum life count of 5. Red enemies begin to spawn slightly more frequently as the player loses more lives. Collision detection is performed by calculating the magnitude of the vector between a missile and an enemy. If the missile is determined to be inside of the ship&#39;s collider, both the missile and the enemy ship are destroyed and a particle emitter is spawned at the enemy ship&#39;s location, indicating a hit. The particle emitter interpolates the particle colors from white to orange over time.
+                    </p>
+                </div>
+            </div>
+        
+            <div id="mainButtons" style="margin-top: -40px; padding-bottom: 100px;">
+                    <ul>
+                        <li><a class="color_fade" href="http://jordanscottmiller.com/portfolio">Back</a></li>
+                    </ul>
+                </div>
+        </div>
+        
+    </body>
+</html>
